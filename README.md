@@ -94,7 +94,4 @@ This is a full-stack **Ride-Sharing Web Application** built with **React (Fronte
 - OTP verification during sign-up
 - Wallet system for faster checkouts
 
----
-
-## 📁 Project Structure
 
