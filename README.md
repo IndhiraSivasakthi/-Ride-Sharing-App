@@ -99,7 +99,7 @@ This is a full-stack **Ride-Sharing Web Application** built with **React (Fronte
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/Screenshot 2025-05-27 115841.png)
+![Home Page](Screenshots/Screenshot 2025-05-27 115841.png)
 
 
 
