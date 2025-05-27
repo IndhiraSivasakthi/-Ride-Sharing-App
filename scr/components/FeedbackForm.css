@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Bodoni MT', sans-serif;
+    background:  #00008b;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Feedback Form Styles */
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+.feedback-form {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 500px;
+    border: 2px solid #ffffff; /* Solid border for better visibility */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust gap */
+    background: rgba(255, 255, 255, 0.1); 
+}
+
+.feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff; /* Set h2 color to white */
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 10px; /* Adjusted margin */
+    font-size: 16px;
+    color: #ffffff; /* Set label color to white */
+}
+
+.feedback-form input[type="number"],
+.feedback-form textarea {
+    width: 100%; /* Full width */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: white; /* Set text color to white */
+    font-size: 16px;
+    box-sizing: border-box;
+    background: white; /* Background color for input and textarea */
+    resize: vertical; /* Allows vertical resizing only */
+}
+
+.feedback-form textarea {
+    min-height: 100px; /* Set minimum height for textarea */
+    max-height: 1000px; /* Optional: Set maximum height for textarea */
+    margin-top: 8px; /* Optional: Add margin to space out from other elements */
+}
+
+.feedback-form button {
+    padding: 12px 24px;
+    background-color: #eeff02;
+    color: #000;
+    border: 2px solid #eeff02;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border-color: #0056b3;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #2ecc71;
+    font-size: 14px;
+    margin-bottom: 15px;
+}

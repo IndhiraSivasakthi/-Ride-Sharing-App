@@ -1,0 +1,104 @@
+body {
+    font-family: 'Bodoni MT', sans-serif;
+    background: #00008b;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.current-rides-page {
+    padding: 20px;
+}
+
+.current-rides-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.current-rides-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color:  #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color:  #0056b3;
+}
+
+.current-rides-message,
+.current-rides-error {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.current-rides-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.current-rides-table th,
+.current-rides-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Existing styles remain unchanged */
+
+.cancel-button,
+.payment-button {
+    margin-right: 10px; /* Existing margin for spacing */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    margin-right: 15px; /* Increased margin for more space */
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
+
+.payment-button {
+    background-color: #008CBA;
+    color: white;
+}
+
+/* Adding margin to the payment button */
+.payment-button {
+    margin-left: 10px; /* Additional margin for space between buttons */
+}
+
+.payment-button:hover {
+    background-color: #007bb5;
+}

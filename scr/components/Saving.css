@@ -1,0 +1,10 @@
+.earnings-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 16px;
+}

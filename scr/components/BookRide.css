@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Bodoni MT', sans-serif;
+    background:  #00008b;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Book Ride Page */
+.book-ride {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.book-ride__container {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 500px;
+    border: 2px solid #ffffff; /* Add a solid border for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust gap */
+    background: rgba(255, 255, 255, 0.1); /* Background color adjustment */
+}
+
+.book-ride__title {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.book-ride__error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.book-ride__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure form takes full width */
+    gap: 20px;
+}
+
+.book-ride__form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Ensure form group takes full width */
+}
+
+.book-ride__form-group label {
+    font-size: 1.1em;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.book-ride__form-group input,
+.book-ride__form-group select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 1em;
+}
+
+.book-ride__fare-estimate-button,
+.book-ride__submit-button {
+    padding: 12px 24px;
+    background-color: #eeff02;
+    color: #000;
+    border: 2px solid #eeff02;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.book-ride__fare-estimate-button:hover,
+.book-ride__submit-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border-color: #0056b3;
+}
+
+.book-ride__fare-estimate {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #eeff02;
+}

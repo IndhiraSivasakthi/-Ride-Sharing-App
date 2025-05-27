@@ -1,0 +1,179 @@
+body {
+    font-family: 'Bodoni MT', sans-serif;
+    background:  #00008b;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    overflow: hidden;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Space between app name and menu */
+    align-items: center; /* Align items vertically */
+}
+
+.top-bar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.top-bar .app-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Bright color for the app name */
+    text-shadow: 2px 2px 4px #000000; /* Subtle shadow for better readability */
+    letter-spacing: 2px; /* Slightly increase letter spacing */
+    text-transform: uppercase; /* Make the text uppercase */
+    margin-left: 40px; /* Move content to the left */
+}
+
+.top-bar .menu-right {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-right: 20px; /* Ensure some space on the right */
+}
+
+.welcome-message {
+    padding: 14px 16px;
+    font-size: 17px;
+    color: yellow; /* You can adjust the color as needed */
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    opacity: 0; /* Initially hidden */
+    animation: fadeInAnimation 1s forwards; /* Animation to fade in */
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.section:nth-child(odd) {
+    flex-direction: row;
+}
+
+.section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.section img {
+    max-width: 500px;
+    height: auto;
+    margin: 0 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.section img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.section .content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Bodoni MT', Geneva, Verdana, sans-serif;
+}
+
+.section p {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+.section button {
+    margin-top: 10px;
+    padding: 12px 24px; /* Increased padding for better clickability */
+    background-color: #eeff02;
+    color: rgb(0, 0, 0);
+    border: 2px solid #eeff02; /* Add a solid border for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+.section button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border-color: #0056b3;
+}
+
+.footer {
+    background-color: #00008b;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.footer-info {
+    margin: 10px 0;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-info a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    color: #eeff02; /* Highlight color on hover */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
