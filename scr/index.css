@@ -1,0 +1,235 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: rgb(0, 183, 255);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  resize: horizontal;
+}
+
+.sports-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.switch {
+  margin-top: 5px;
+}
+
+.range-slider {
+  width: 100%;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-label {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.radio-label input {
+  margin-right: 5px;
+}
+
+.radio-label span {
+  font-size: 16px;
+}
+
+/* Style for checked radio button */
+.radio-label input:checked + span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Additional styles */
+
+.input-group label {
+  font-size: 18px;
+  color: #333; /* Darken the label color */
+}
+
+.input,
+.textarea,
+.select,
+.time-picker {
+  font-size: 16px;
+}
+
+.checkbox-label {
+  font-size: 16px;
+  color: #555; /* Dark gray color for the checkbox label */
+}
+
+.checkbox-label input {
+  margin-right: 8px;
+}
+
+.checkbox-label input:checked + span {
+  font-weight: bold;
+  color: #007bff; /* Change color for checked checkbox label */
+}
+
+.checkbox-label span {
+  font-size: 16px;
+}
+
+.checkbox-label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Styles for Time Picker */
+/* Styles for Time Picker */
+.time-picker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+/* Style for react-datepicker */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+
+/* Styles for Star Rating */
+.star-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.star {
+  font-size: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.star.active {
+  color: gold; /* Change color for active star */
+}
+/* Additional Unique Styles */
+
+/* Custom styles for specific input elements */
+.input-group .input[type="text"]:focus,
+.input-group .input[type="email"]:focus,
+.input-group .input[type="password"]:focus,
+.input-group .input[type="file"]:focus,
+.input-group .textarea:focus,
+.input-group .select:focus,
+.input-group .time-picker:focus,
+.input-group .react-datepicker-wrapper input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2); /* Add box shadow on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Styling for disabled elements */
+.input-group .input:disabled,
+.input-group .textarea:disabled,
+.input-group .select:disabled,
+.input-group .time-picker:disabled,
+.input-group .react-datepicker-wrapper input:disabled,
+.input-group .button:disabled {
+  opacity: 0.7; /* Reduce opacity for disabled elements */
+  cursor: not-allowed; /* Change cursor for disabled elements */
+}
+
+/* Style for the agreement checkbox label */
+.agreement-label {
+  font-size: 16px;
+  color: #555; /* Dark gray color for the agreement label */
+  margin-top: 10px;
+}
+
+.agreement-label input:checked + span {
+  font-weight: bold;
+  color: #007bff; /* Change color for checked agreement label */
+}
+
+/* Style for error messages */
+.error-message {
+  color: #dc3545; /* Red color for error messages */
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Style for success messages */
+.success-message {
+  color: #28a745; /* Green color for success messages */
+  font-size: 14px;
+  margin-top: 5px;
+}
